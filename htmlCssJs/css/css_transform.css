@@ -1,0 +1,61 @@
+img {
+    width: 200px;
+}
+.img-skew:active {
+    transform: skewY(50deg, 50deg);
+}
+
+.img-rotate:active {
+    transform: rotateY(60deg);
+}
+
+.img-scale:active {
+    transform: scale(2);
+}
+
+.img-translate:active {
+    transform: translate(10px, 10px);
+}
+
+.img-transform:active {
+    width: 500px;
+    transform: perspective(150px) rotateY(40deg);
+    transition: transform 2s linear 2s;
+}
+
+.img-width:active {
+    width: 500px;
+    transition: 2s;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.box-transition:active {
+    width: 300px;
+    height: 300px;
+    transition: 1s 0.5s;
+}
+
+.img-cat1 {
+    position: absolute;
+    transform: skew(30deg) rotate(30deg);
+}
+
+.img-cat2 {
+    position: absolute;
+    left: 150px;
+    transform: skew(30deg) rotate(30deg);
+
+}
+
+.img-cat3 {
+    position: absolute;
+    left: 300px;
+    transform: skew(30deg) rotate(30deg);
+
+}

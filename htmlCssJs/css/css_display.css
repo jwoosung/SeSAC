@@ -1,0 +1,155 @@
+/*div {
+    display: block
+}*/
+.box {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 5px;
+
+}
+
+.container-1 {
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color:bisque;
+    
+}
+
+.container-1-2 {
+    margin-top: 20px;
+    display :flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color:bisque;
+}
+
+.container-2-1 {
+    margin-top: 20px;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color:bisque;
+}
+
+.container-2-2 {
+    margin-top: 20px;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color:bisque;
+}
+
+.container-2-3 {
+    margin-top: 20px;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    background-color:bisque;
+}
+
+.container-2-4 {
+    margin-top: 20px;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color:bisque;
+}
+
+
+.css-display {
+    height: 100px;
+} 
+
+
+/* inline : width, height margin(top, bottom) 무용지물 */
+/* inline-block : inline과 block의 특징을 합쳐 놓음 (inline: content의 크기 만큼만 공간을 차지 / block : width, height, margin, 정상*/
+.d-inline-block {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* flex:자식 요소(하위 요소 x)를 인라인 요소로 만듦*/
+.container {
+    display :flex;
+    height: 500px;
+    flex-direction: column-reverse;
+}
+
+.container-2 {
+    /* flex-wrap, justify-content */
+    display :flex;
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-3 {
+    /* flex-wrap, justify-content */
+    display :flex;
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+/* .container-3 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+} */

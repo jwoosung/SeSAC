@@ -1,0 +1,161 @@
+/* relative */
+body {
+    margin: 0;
+}
+
+/* .box {
+    width: 100px;
+    height: 100px;
+}
+
+.box-red {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: red;
+}
+
+.box-orange {
+    position: relative;
+    top: 20px;
+    /* bottom: 20px; */
+    /* left: 20px; 
+    right: 20px;
+    background-color: orange;
+}
+
+.box-yellow {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    background-color: yellow;
+}
+
+.box-green {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: green;
+} 
+
+.sm-box {
+    width: 50px;
+    height: 50px;
+}
+
+.fixed { 
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}*/
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: blue;
+}
+
+.item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    z-index: 2;
+    background-color: red;
+}
+
+.orange {
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    background-color: orange;
+}
+
+.yellow {
+    top: 40px;
+    left: 40px;
+    background-color: yellow;
+}
+
+.warm-head {
+    position: relative;
+    background-color: red;
+}
+
+.warm-eyes1 {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: white;
+
+}
+
+.warm-eyes2 {
+    position: absolute;
+    top: 5px;
+    background-color: black;
+}
+
+.sm-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sm2-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1 {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    background-color: orange;
+
+
+}
+
+.circle2 {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background-color: yellow;
+    
+
+}
+
+.circle3 {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    background-color: green;
+
+}
+
+.circle4 {
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    background-color: blue;
+
+}
+
+.grass {
+    position: absolute;
+    left: -100px;
+    bottom: -140px;
+   
+}
